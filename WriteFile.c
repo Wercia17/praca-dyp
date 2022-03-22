@@ -21,6 +21,8 @@ printf("Enter num: ");
    scanf("%d",&num);
    fprintf(fptr,"%d",num);
    fclose(fptr);
-
+ scanf("%d",&num);
+   fprintf(fptr,"%d",num);
+   fclose(fptr);
    return 0;
 }
